@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Concerns\HasSessionPagination;
 use App\Http\Controllers\Controller;
+use App\Models\Course;
 use App\Services\Contracts\ClassesService;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

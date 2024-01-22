@@ -29,7 +29,7 @@ Route::prefix('classes')->controller(ClassesController::class)->group(function (
         ->name('admin.classes.store');
 
     Route::get('/{id}', 'show')
-        ->name('admin.classes.show');;
+        ->name('admin.classes.show');
 
     Route::match(['PUT', 'PATCH'], '/{id}', 'update')
         ->name('admin.classes.update');
